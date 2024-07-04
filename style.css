@@ -167,7 +167,7 @@ marquee {
 }
 .line3 > img:nth-child(1) {
   max-width: 233.81px;
-  min-height: 400px;
+  min-height: 432px;
 }
 .line3 > img:nth-child(2) {
   max-width: 60.25px;
@@ -511,7 +511,6 @@ marquee {
 
 .play {
   max-width: 50px;
-  border: 1px solid black;
   position: absolute;
   top: 18px;
   right: 18px;
@@ -631,8 +630,9 @@ marquee {
   border-radius: 30px;
 }
 #owl-carousel1 .owl-nav > button > span {
-  padding: 5px 20px;
+  padding: 8px 10px;
   font-size: 34px;
+  line-height: 20px;
 }
 
 /* section 8 */
@@ -784,6 +784,9 @@ marquee {
 .accordion-button:not(.collapsed) {
   background: var(--Neutral-01, #f3f4f6);
 }
+.accordion-button:focus{
+  box-shadow: none;
+}
 
 /* section 11 */
 .comparision-sec {
@@ -906,7 +909,7 @@ tr > td:nth-child(2) {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 8px;
 }
 
 .form-subscribe > input {
